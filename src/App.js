@@ -51,7 +51,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <h1>Todo App</h1>
+        <h1>Todo --- App</h1>
         {/* pass the state and functions of App.js as props to the bellow components */}
         <ShowItems items={this.state.items} delItem={this.delItem} />
         <AddItem addItem={this.addItem} />
